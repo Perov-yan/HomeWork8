@@ -44,6 +44,37 @@ public class Main {
         System.out.println(" ");
         System.out.print(Arrays.toString(number));
         System.out.println(" ");
+        System.out.println("Задание 3");
+        i = 2;
+        for (;i < arr.length; i--){
+            if (i > -1){
+                System.out.print(arr[i]);
+                if (i != 0){
+                System.out.print(", ");
+                }
+            }
+        }
+        System.out.println(" ");
+        i = 2;
+        for (;i < doubleArr.length; i--){
+            if (i > -1){
+                System.out.print(doubleArr[i]);
+                if (i != 0){
+                    System.out.print(", ");
+                }
+            }
+        }
+        System.out.println(" ");
+        i = 11;
+        for (; i < number.length; i--){
+            if (i > -1){
+                System.out.print(number[i]);
+                if (i !=0){
+                    System.out.print(", ");
+                }
+            }
+        }
+        System.out.println(" ");
 
     }
 }
