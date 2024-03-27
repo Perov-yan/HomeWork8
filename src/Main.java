@@ -75,6 +75,23 @@ public class Main {
             }
         }
         System.out.println(" ");
-
+        System.out.println("Задание 4:");
+        i = 0;
+        System.out.print(Arrays.toString(arr));
+        System.out.println(" ");
+        for (;i < arr.length; i++){
+            if (arr[i] % 2 != 0){
+                arr[i] = arr[i] + 1;
+                System.out.print(arr[i]);
+                if (i != arr.length -1){
+                    System.out.print(", ");
+                }
+            } else {
+                System.out.print(arr[i]);
+                if (i != arr.length -1){
+                    System.out.print(", ");
+                }
+            }
+        }
     }
 }
