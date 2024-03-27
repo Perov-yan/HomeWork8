@@ -10,5 +10,6 @@ public class Main {
         number[3] = 4;
         System.out.println(" ");
 
+
     }
 }
